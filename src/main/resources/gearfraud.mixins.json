@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "goldenshadow.gearfraud.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "GearItemAccessor",
+    "HadesServiceMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
